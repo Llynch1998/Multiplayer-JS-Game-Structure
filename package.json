@@ -1,0 +1,29 @@
+{
+  "name": "multiplayer-js-game-structure",
+  "version": "1.0.0",
+  "description": "Testing the ability to use Node JS and js to make simple games in browser",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Llynch1998/Multiplayer-JS-Game-Structure.git"
+  },
+  "author": "Wyatt Lynch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Llynch1998/Multiplayer-JS-Game-Structure/issues"
+  },
+  "homepage": "https://github.com/Llynch1998/Multiplayer-JS-Game-Structure#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http-server": "^0.11.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "start"
+  ]
+}
