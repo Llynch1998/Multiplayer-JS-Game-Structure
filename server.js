@@ -51,9 +51,7 @@ io.on('connection', function(socket) {
 
   
 });
-socket.on("disconnect", function(){
-  players.splice(socket.id, 1);
-});
+
 setInterval(function() {
   io.sockets.emit('state', players);
 }, 1000 / 60);
